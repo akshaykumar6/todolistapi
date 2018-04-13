@@ -1,0 +1,32 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "RESTFul API",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/akshaykumar6/todolistapi.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "Akshay Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshaykumar6/todolistapi/issues"
+  },
+  "homepage": "https://github.com/akshaykumar6/todolistapi#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.14"
+  }
+}
